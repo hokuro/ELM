@@ -1,4 +1,4 @@
-package mod.fbd.core.log;
+package mod.elm.core.log;
 
 
 import java.util.Locale;
@@ -7,7 +7,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.ThreadContext;
 
-import mod.fbd.core.ModCommon;
+import mod.elm.core.ModCommon;
 import net.minecraftforge.fml.relauncher.FMLLaunchHandler;
 
 

@@ -1,4 +1,4 @@
-package mod.fbd.core;
+package mod.elm.core;
 
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;

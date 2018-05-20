@@ -1,4 +1,4 @@
-package mod.fbd.resource;
+package mod.elm.resource;
 
 import java.io.File;
 import java.io.FileFilter;
@@ -6,7 +6,6 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.net.URL;
-import java.util.ArrayList;
 import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.List;
@@ -14,10 +13,9 @@ import java.util.Map;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 
-import mod.fbd.core.ModCommon;
-import mod.fbd.core.Mod_FantomBlade;
-import mod.fbd.core.log.ModLog;
-import mod.fbd.util.ModUtil;
+import mod.elm.core.ModCommon;
+import mod.elm.core.log.ModLog;
+import mod.elm.util.ModUtil;
 
 public class ResourceManager {
 
@@ -83,9 +81,9 @@ public class ResourceManager {
 
 	public ResourceManager(){
 		texturemaps = new HashMap<String,List<TextureInfo>>();
-		for (String name : Mod_FantomBlade.modelNames){
-			texturemaps.put(name, new ArrayList<TextureInfo>());
-		}
+//		for (String name : Mod_ElonaMobs.modelNames){
+//			texturemaps.put(name, new ArrayList<TextureInfo>());
+//		}
 	}
 
 	public void initResource() throws Exception {

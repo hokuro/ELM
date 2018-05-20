@@ -1,9 +1,9 @@
-package mod.fbd.util;
+package mod.elm.util;
 
 import java.util.List;
 import java.util.Random;
 
-import mod.fbd.core.Mod_FantomBlade;
+import mod.elm.core.Mod_ElonaMobs;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
@@ -98,7 +98,7 @@ public class ModUtil {
 	 */
 	public static int random(int n) {
 		if (n == 0){return 0;}
-		Random rand = Mod_FantomBlade.instance.rnd;
+		Random rand = Mod_ElonaMobs.instance.rnd;
 		if ( rand == null){
 			rand = new Random();
 			rand.setSeed(System.currentTimeMillis() + Runtime.getRuntime().freeMemory());
@@ -127,7 +127,7 @@ public class ModUtil {
 	 * @return
 	 */
 	public static double randomD() {
-		Random rand = Mod_FantomBlade.instance.rnd;
+		Random rand = Mod_ElonaMobs.instance.rnd;
 		if ( rand == null){
 			rand = new Random();
 			rand.setSeed(System.currentTimeMillis() + Runtime.getRuntime().freeMemory());

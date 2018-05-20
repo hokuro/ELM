@@ -1,4 +1,4 @@
-package mod.fbd.config;
+package mod.elm.config;
 
 import java.io.File;
 import java.lang.reflect.Field;
@@ -6,7 +6,7 @@ import java.lang.reflect.Modifier;
 
 import org.apache.commons.lang3.math.NumberUtils;
 
-import mod.fbd.core.ModCommon;
+import mod.elm.core.ModCommon;
 import net.minecraft.util.text.translation.I18n;
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.common.config.Property;

@@ -1,4 +1,4 @@
-package mod.fbd.config;
+package mod.elm.config;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

@@ -1,4 +1,4 @@
-package mod.fbd.config;
+package mod.elm.config;
 
 import java.io.File;
 import java.util.Map;

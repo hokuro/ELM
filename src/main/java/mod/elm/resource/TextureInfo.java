@@ -1,13 +1,10 @@
-package mod.fbd.resource;
+package mod.elm.resource;
 
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.io.InputStream;
 
 import javax.imageio.ImageIO;
-
-import mod.fbd.core.Mod_FantomBlade;
-import mod.fbd.core.log.ModLog;
 
 public class TextureInfo {
 	// ファイル名
@@ -30,12 +27,12 @@ public class TextureInfo {
 			fileName = tex[tex.length-1];
 			String[] work = fileName.split("_");
 			// モデル名を確認
-			if ((modelName=Mod_FantomBlade.checkModelName(work[0].replace(".png", ""))) == null){
-				// モデル名がない場合登録しない
-				ModLog.log().debug("path:"+path);
-				canUse = false;
-				return;
-			}
+//			if ((modelName=Mod_ElonaMobs.checkModelName(work[0].replace(".png", ""))) == null){
+//				// モデル名がない場合登録しない
+//				ModLog.log().debug("path:"+path);
+//				canUse = false;
+//				return;
+//			}
 			modelName = work[0].replace(".png", "");
 			textureName = fileName.toString().replace(".png", "");
 
