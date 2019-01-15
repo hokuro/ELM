@@ -4,26 +4,34 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
 
 public class SoundManager {
-	public static String SOUND_BLADESMITH_HART = "entity.fbd.bladesmithhart";
-	public static String SOUND_BLADESMITH_DAMAGE = "entity.fbd.bladesmithdamage";
-	public static String SOUND_BLADESMITH_DEAD = "entity.fbd.bladesmithdead";
-	public static String SOUND_BLADESMITH_WORK = "entity.fbd.bladesmithwork";
-	public static String SOUND_GUN_GUNSHOT = "item.fbd.gunshot";
-	public static String SOUND_GUN_RELOAD ="item.fbd.reload";
-	public static String SOUND_GUN_NOBURRET = "item.fbd.noburret";
+	public static String SOUND_BLOCKIMOUTOHED_NORMAL = "block.elm.imoutohead.normal";
+	public static String SOUND_BLOCKIMOUTOHED_ROTTEN = "block.elm.imoutohead.rotten";
+	public static String SOUND_BLOCKIMOUTOHED_SKELTON = "block.elm.imoutohead.skelton";
+	public static String SOUND_ITEMIMOUTOARMOR_EQUIP = "item.elm.imoutoarmor.equip";
+	public static String SOUND_ITEMIMOUTO_USE = "item.elm.imoutoitem.usevoice";
+	public static String SOUND_ITEMIMOUTO_MEET = "item.elm.imoutoitem.meet";
+	public static String SOUND_ITEMIMOUTO_COOKEDMEET = "item.elm.imoutoitem.cookedmeet";
 
-	public static SoundEvent sound_bladesmith_hart = new SoundEvent(new ResourceLocation(ModCommon.MOD_ID+":" + SOUND_BLADESMITH_HART))
-			.setRegistryName(SOUND_BLADESMITH_HART);
-	public static SoundEvent sound_bladesmith_damage = new SoundEvent(new ResourceLocation(ModCommon.MOD_ID+":" + SOUND_BLADESMITH_DAMAGE))
-			.setRegistryName(SOUND_BLADESMITH_DAMAGE);
-	public static SoundEvent sound_bladesmith_dead = new SoundEvent(new ResourceLocation(ModCommon.MOD_ID+":" + SOUND_BLADESMITH_DEAD))
-			.setRegistryName(SOUND_BLADESMITH_DEAD);
-	public static SoundEvent sound_bladesmith_work = new SoundEvent(new ResourceLocation(ModCommon.MOD_ID+":" + SOUND_BLADESMITH_WORK))
-			.setRegistryName(SOUND_BLADESMITH_WORK);
-	public static SoundEvent sound_gun_gunshot = new SoundEvent(new ResourceLocation(ModCommon.MOD_ID+":" + SOUND_GUN_GUNSHOT))
-			.setRegistryName(SOUND_GUN_GUNSHOT);
-	public static SoundEvent sound_gun_reload = new SoundEvent(new ResourceLocation(ModCommon.MOD_ID+":" + SOUND_GUN_RELOAD))
-			.setRegistryName(SOUND_GUN_RELOAD);
-	public static SoundEvent sound_gun_noburret = new SoundEvent(new ResourceLocation(ModCommon.MOD_ID+":" + SOUND_GUN_NOBURRET))
-			.setRegistryName(SOUND_GUN_NOBURRET);
+	public static SoundEvent block_imoutohead_normal =
+			new SoundEvent(new ResourceLocation(ModCommon.MOD_ID+":" + SOUND_BLOCKIMOUTOHED_NORMAL))
+			.setRegistryName(SOUND_BLOCKIMOUTOHED_NORMAL);
+	public static SoundEvent block_imoutohead_rotten =
+			new SoundEvent(new ResourceLocation(ModCommon.MOD_ID+":" + SOUND_BLOCKIMOUTOHED_ROTTEN))
+			.setRegistryName(SOUND_BLOCKIMOUTOHED_ROTTEN);
+	public static SoundEvent block_imoutohead_skelton =
+			new SoundEvent(new ResourceLocation(ModCommon.MOD_ID+":" + SOUND_BLOCKIMOUTOHED_SKELTON))
+			.setRegistryName(SOUND_BLOCKIMOUTOHED_SKELTON);
+
+	public static SoundEvent item_aromor_equip_imouto =
+			new SoundEvent(new ResourceLocation(ModCommon.MOD_ID+":" + SOUND_ITEMIMOUTOARMOR_EQUIP))
+			.setRegistryName(SOUND_ITEMIMOUTOARMOR_EQUIP);
+	public static SoundEvent item_imouto_use =
+			new SoundEvent(new ResourceLocation(ModCommon.MOD_ID+":" + SOUND_ITEMIMOUTO_USE))
+			.setRegistryName(SOUND_ITEMIMOUTO_USE);
+	public static SoundEvent item_imouto_meet =
+			new SoundEvent(new ResourceLocation(ModCommon.MOD_ID+":" + SOUND_ITEMIMOUTO_MEET))
+			.setRegistryName(SOUND_ITEMIMOUTO_MEET);
+	public static SoundEvent item_imouto_cookedmeet =
+			new SoundEvent(new ResourceLocation(ModCommon.MOD_ID+":" + SOUND_ITEMIMOUTO_COOKEDMEET))
+			.setRegistryName(SOUND_ITEMIMOUTO_COOKEDMEET);
 }

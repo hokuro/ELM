@@ -2,7 +2,7 @@ package mod.elm.core;
 
 public final class ModCommon {
 	// デバッグモードかどうか
-	public static boolean isDebug = false;
+	public static boolean isDebug = true;
 
 	public static boolean isDevelop= false;
 

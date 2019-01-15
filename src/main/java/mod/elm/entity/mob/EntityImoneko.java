@@ -1,0 +1,13 @@
+package mod.elm.entity.mob;
+
+import mod.elm.entity.EntityElmBase;
+import net.minecraft.world.World;
+
+public class EntityImoneko extends EntityElmBase{
+
+	public EntityImoneko(World worldIn) {
+		super(worldIn);
+		// TODO 自動生成されたコンストラクター・スタブ
+	}
+
+}

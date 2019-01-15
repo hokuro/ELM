@@ -1,10 +1,20 @@
 package mod.elm.client;
 
 import mod.elm.core.CommonProxy;
+import mod.elm.entity.passive.EntityImoutoGolem;
+import mod.elm.entity.passive.EntityImoutoSnowman;
+import mod.elm.render.RenderEntityImoutoGolem;
+import mod.elm.render.RenderEntityImoutoSnowman;
+import mod.elm.tileentity.TileEntityImoutoHead;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.entity.Render;
+import net.minecraft.client.renderer.entity.RenderManager;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.client.FMLClientHandler;
+import net.minecraftforge.fml.client.registry.IRenderFactory;
+import net.minecraftforge.fml.client.registry.RenderingRegistry;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
@@ -20,27 +30,25 @@ public class ClientProxy extends CommonProxy{
 
 	@Override
 	public void registerTileEntity(){
-//		ClientRegistry.registerTileEntity(TileEntityBladeforge.class, TileEntityBladeforge.NAME,new RenderTileEntityBladeforge());
+		GameRegistry.registerTileEntity(TileEntityImoutoHead.class, TileEntityImoutoHead.NAME);
 //		ClientRegistry.registerTileEntity(TileEntityAirPomp.class, TileEntityAirPomp.NAME, new RendernTileEntityAirPomp());
-//		ClientRegistry.registerTileEntity(TileEntityBladeStand.class, TileEntityBladeStand.NAME, new RenderTileEntityBladeStand());
-//		ClientRegistry.registerTileEntity(TileEntityBladeAlter.class, TileEntityBladeAlter.NAME, new RenderTileEntityBladeAlter());
 	}
 
 	@Override
 	public void registerRender(){
-//		RenderingRegistry.registerEntityRenderingHandler(EntityBladeSmith.class,  new IRenderFactory<EntityBladeSmith>() {
-//			@Override
-//			public Render<? super EntityBladeSmith> createRenderFor(RenderManager manager) {
-//				return new RenderEntityBladeSmith(manager, 0.5f);
-//			}
-//		});
-//
-//		RenderingRegistry.registerEntityRenderingHandler(EntityBurret.class,  new IRenderFactory<EntityBurret>() {
-//			@Override
-//			public Render<? super EntityBurret> createRenderFor(RenderManager manager) {
-//				return new RenderEntityBurret(manager);
-//			}
-//		});
+		RenderingRegistry.registerEntityRenderingHandler(EntityImoutoGolem.class,  new IRenderFactory<EntityImoutoGolem>() {
+			@Override
+			public Render<? super EntityImoutoGolem> createRenderFor(RenderManager manager) {
+				return new RenderEntityImoutoGolem(manager);
+			}
+		});
+
+		RenderingRegistry.registerEntityRenderingHandler(EntityImoutoSnowman.class,  new IRenderFactory<EntityImoutoSnowman>() {
+			@Override
+			public Render<? super EntityImoutoSnowman> createRenderFor(RenderManager manager) {
+				return new RenderEntityImoutoSnowman(manager);
+			}
+		});
 	}
 
 	@Override

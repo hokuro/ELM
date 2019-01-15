@@ -4,8 +4,13 @@ import java.util.List;
 import java.util.Random;
 
 import mod.elm.core.Mod_ElonaMobs;
+import mod.elm.core.log.ModLog;
+import net.minecraft.client.Minecraft;
+import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.math.RayTraceResult;
+import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.common.ObfuscationReflectionHelper;
 
@@ -166,6 +171,56 @@ public class ModUtil {
 
 	public static <E> void setPrivateValue(Class<? super E> classToAccess, E instance, Object value, String ... fieldNames){
 		ObfuscationReflectionHelper.setPrivateValue(classToAccess, instance, value, fieldNames);
+	}
+
+
+	public static EntityLivingBase getClosestLivingEntity(double parDistance, float tick) {
+		try {
+			Minecraft mc = Minecraft.getMinecraft();
+			EntityLivingBase viewEntity = (mc.getRenderViewEntity() instanceof EntityLivingBase)?(EntityLivingBase)mc.getRenderViewEntity():null;
+			EntityLivingBase Return = null;
+			double closest = parDistance;
+			Vec3d playerPosition;
+			Vec3d lookFarCoord;
+
+			// 見ているエンティティがあるかどうか
+			if ((viewEntity != null) && (viewEntity instanceof EntityLivingBase)) {
+				World worldObj = viewEntity.world;//　　.worldObj;
+				RayTraceResult objectMouseOver = viewEntity.rayTrace(parDistance, tick);
+
+				// プレイヤーの位置
+				playerPosition = new Vec3d(viewEntity.getPosition());
+
+				// 視線ベクトル
+				Vec3d dirVec = viewEntity.getLookVec();
+				// 視線座標
+				lookFarCoord = playerPosition.addVector(dirVec.x * parDistance, dirVec.y * parDistance, dirVec.z * parDistance);
+
+				// 視線が当たっているMobを取得
+				List<EntityLivingBase> targettedEntities = worldObj.getEntitiesWithinAABB(EntityLivingBase.class,
+						 viewEntity.getEntityBoundingBox().expand(dirVec.x * parDistance, dirVec.y * parDistance, dirVec.z * parDistance));
+				// 自分自身はMobから外す
+				targettedEntities.remove(viewEntity);
+				for (EntityLivingBase targettedEntity : targettedEntities) {
+					if (targettedEntity != null) {
+						// エンティティとの距離
+						double precheck = viewEntity.getDistance(targettedEntity);
+						// 視線が当たっているかどうか確認
+						RayTraceResult mopElIntercept = targettedEntity.getEntityBoundingBox().calculateIntercept(playerPosition.addVector(0, viewEntity.getEyeHeight(), 0),lookFarCoord);
+						if ((mopElIntercept != null) && (precheck < closest)) {
+							Return = targettedEntity;
+							closest = precheck;
+							ModLog.log().debug("Hit " + Return.getName());
+						}
+					}
+				}
+			}
+			if ((Return != null) && (!Return.isDead) && (!Return.isInvisible())) {
+				return Return;
+			}
+		} catch (Throwable ex) {
+		}
+		return null;
 	}
 
 

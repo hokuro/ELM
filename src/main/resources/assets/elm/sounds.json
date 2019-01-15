@@ -1,0 +1,550 @@
+{
+  "block.elm.imoutohead.normal":{
+    "category":"voice",
+    "sounds":[
+      {
+        "name": "elm:block/imoutohead1",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:block/imoutohead2",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:block/imoutohead3",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:block/imoutohead4",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:block/imoutohead5",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:block/imoutohead6",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:block/imoutohead7",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:block/imoutohead8",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:block/imoutohead9",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      }
+    ]
+  },
+  "block.elm.imoutohead.rotten":{
+    "category":"voice",
+    "sounds":[
+      {
+        "name": "elm:block/imoutohead_rotten1",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:block/imoutohead_rotten2",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:block/imoutohead_rotten3",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:block/imoutohead_rotten4",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:block/imoutohead_rotten5",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:block/imoutohead_rotten6",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:block/imoutohead_rotten7",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:block/imoutohead_rotten8",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:block/imoutohead_rotten9",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      }
+    ]
+  },
+  "block.elm.imoutohead.skelton":{
+    "category":"voice",
+    "sounds":[
+      {
+        "name": "elm:block/imoutohead_skelton1",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:block/imoutohead_skelton2",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:block/imoutohead_skelton3",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:block/imoutohead_skelton4",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:block/imoutohead_skelton5",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:block/imoutohead_skelton6",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:block/imoutohead_skelton7",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:block/imoutohead_skelton8",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:block/imoutohead_skelton9",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      }
+    ]
+  },
+  "item.elm.imoutoitem.usevoice":{
+    "category":"player",
+    "sounds":[
+      {
+        "name": "elm:item/itemimouto01",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/itemimouto02",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/itemimouto03",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/itemimouto04",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/itemimouto05",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/itemimouto06",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/itemimouto07",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/itemimouto08",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      }
+    ]
+  },
+  "item.elm.imoutoitem.meet":{
+    "category":"player",
+    "sounds":[
+      {
+        "name": "elm:item/itemimoutomeet01",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/itemimoutomeet02",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/itemimoutomeet03",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/itemimoutomeet04",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/itemimoutomeet05",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/itemimoutomeet06",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/itemimoutomeet07",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/itemimoutomeet08",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/itemimoutomeet09",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/itemimoutomeet10",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/itemimoutomeet11",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/itemimoutomeet12",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/itemimoutomeet13",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/itemimoutomeet14",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/itemimoutomeet15",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/itemimoutomeet16",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      }
+    ]
+  },
+  "item.elm.imoutoitem.cookedmeet":{
+    "category":"player",
+    "sounds":[
+      {
+        "name": "elm:item/cooked_itemimoutomeet01",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/cooked_itemimoutomeet02",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/cooked_itemimoutomeet03",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/cooked_itemimoutomeet04",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/cooked_itemimoutomeet05",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/cooked_itemimoutomeet06",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/cooked_itemimoutomeet07",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/cooked_itemimoutomeet08",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/cooked_itemimoutomeet09",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/cooked_itemimoutomeet10",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/cooked_itemimoutomeet11",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/cooked_itemimoutomeet12",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/cooked_itemimoutomeet13",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/cooked_itemimoutomeet14",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/cooked_itemimoutomeet15",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/cooked_itemimoutomeet16",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/cooked_itemimoutomeet17",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/cooked_itemimoutomeet18",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/cooked_itemimoutomeet19",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/cooked_itemimoutomeet20",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/cooked_itemimoutomeet21",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/cooked_itemimoutomeet22",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      },
+      {
+        "name": "elm:item/cooked_itemimoutomeet23",
+        "weight": 1,
+        "volume": 1,
+        "pitch":1,
+        "stream":false
+      }
+    ]
+  }
+}

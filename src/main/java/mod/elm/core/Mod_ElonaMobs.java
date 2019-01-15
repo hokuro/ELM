@@ -5,6 +5,10 @@ import java.util.Random;
 
 import mod.elm.config.ConfigValue;
 import mod.elm.creative.CreativeTabELM;
+import net.minecraft.item.Item.ToolMaterial;
+import net.minecraft.item.ItemArmor.ArmorMaterial;
+import net.minecraft.util.ResourceLocation;
+import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -27,6 +31,9 @@ public class Mod_ElonaMobs {
 	public static final ModGui guiInstance = new ModGui();
 	// タブ
 	public static final CreativeTabELM tabElmWepon = new CreativeTabELM("ElonaMobs");
+
+	public static ToolMaterial materialImouto;
+	public static ArmorMaterial materialImoutoA;
 	public Random rnd;
 
 
@@ -37,35 +44,19 @@ public class Mod_ElonaMobs {
 
 		// コンフィグ読み込み
 		ConfigValue.init(event);
+		materialImouto = EnumHelper.addToolMaterial("imouto", 0, 021, 999.90F, 999.9F, 0);
+		materialImoutoA = EnumHelper.addArmorMaterial("imouto", new ResourceLocation(ModCommon.MOD_ID,"imouto").toString(), 021, new int[]{3, 6, 8, 3}, 21, SoundManager.item_aromor_equip_imouto, 21F);
 
-		// アイテム登録
-		ModRegister.RegisterItem(event);
-
-		// ブロック登録
-		ModRegister.RegisterBlock(event);
-
-
-		// エンティティ設定
-		ModRegister.RegisterEntity(proxy);
-
-		// レンダー設定
-		ModRegister.RegisterRender(proxy);
-
-		// サウンド登録
-		ModRegister.RegisterSounds();
+		ModRegister.registerPreInit(event, proxy);
 	}
 
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
-		// メッセージ登録
-		ModRegister.RegisterMessage();
-
-		NetworkRegistry.INSTANCE.registerGuiHandler(this, new ModGui());
+		ModRegister.registerInit();
 	}
 
 	@EventHandler
 	public void postInit(FMLPostInitializationEvent event){
-		// イベント
-		ModRegister.RegisterEvent();
+		ModRegister.registerPostInit();
 	}
 }

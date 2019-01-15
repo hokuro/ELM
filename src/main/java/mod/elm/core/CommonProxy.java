@@ -1,8 +1,10 @@
 package mod.elm.core;
 
+import mod.elm.tileentity.TileEntityImoutoHead;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.world.World;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class CommonProxy{
 	public CommonProxy(){
@@ -13,7 +15,7 @@ public class CommonProxy{
 	}
 
 	public void registerTileEntity(){
-//		GameRegistry.registerTileEntity(TileEntityBladeforge.class, TileEntityBladeforge.NAME);
+		GameRegistry.registerTileEntity(TileEntityImoutoHead.class, TileEntityImoutoHead.NAME);
 //		GameRegistry.registerTileEntity(TileEntityAirPomp.class, TileEntityAirPomp.NAME);
 //		GameRegistry.registerTileEntity(TileEntityBladeStand.class, TileEntityBladeStand.NAME);
 //		GameRegistry.registerTileEntity(TileEntityBladeAlter.class, TileEntityBladeAlter.NAME);
