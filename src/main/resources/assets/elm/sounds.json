@@ -1,550 +1,344 @@
 {
-  "block.elm.imoutohead.normal":{
-    "category":"voice",
-    "sounds":[
-      {
-        "name": "elm:block/imoutohead1",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:block/imoutohead2",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:block/imoutohead3",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:block/imoutohead4",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:block/imoutohead5",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:block/imoutohead6",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:block/imoutohead7",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:block/imoutohead8",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:block/imoutohead9",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      }
+  "voice_wanderingpeople_ambient_cold":{
+  "category":"voice",
+  "sounds":[
+    {"name":"elm:entity/wanderingpeople/ambient_cold01","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/ambient_cold02","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/ambient_cold03","weight":1,"volume":1,"pitch":1,"stream":false}
     ]
   },
-  "block.elm.imoutohead.rotten":{
-    "category":"voice",
-    "sounds":[
-      {
-        "name": "elm:block/imoutohead_rotten1",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:block/imoutohead_rotten2",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:block/imoutohead_rotten3",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:block/imoutohead_rotten4",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:block/imoutohead_rotten5",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:block/imoutohead_rotten6",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:block/imoutohead_rotten7",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:block/imoutohead_rotten8",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:block/imoutohead_rotten9",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      }
+  "voice_wanderingpeople_ambient_dark":{
+  "category":"voice",
+  "sounds":[
+    {"name":"elm:entity/wanderingpeople/ambient_dark01","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/ambient_dark02","weight":1,"volume":1,"pitch":1,"stream":false}
     ]
   },
-  "block.elm.imoutohead.skelton":{
-    "category":"voice",
-    "sounds":[
-      {
-        "name": "elm:block/imoutohead_skelton1",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:block/imoutohead_skelton2",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:block/imoutohead_skelton3",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:block/imoutohead_skelton4",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:block/imoutohead_skelton5",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:block/imoutohead_skelton6",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:block/imoutohead_skelton7",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:block/imoutohead_skelton8",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:block/imoutohead_skelton9",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      }
+  "voice_wanderingpeople_ambient_health":{
+  "category":"voice",
+  "sounds":[
+    {"name":"elm:entity/wanderingpeople/ambient_health01","weight":1,"volume":1,"pitch":1,"stream":false}
     ]
   },
-  "item.elm.imoutoitem.usevoice":{
-    "category":"player",
-    "sounds":[
-      {
-        "name": "elm:item/itemimouto01",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/itemimouto02",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/itemimouto03",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/itemimouto04",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/itemimouto05",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/itemimouto06",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/itemimouto07",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/itemimouto08",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      }
+  "voice_wanderingpeople_ambient_hot":{
+  "category":"voice",
+  "sounds":[
+    {"name":"elm:entity/wanderingpeople/ambient_hot01","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/ambient_hot02","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/ambient_hot03","weight":1,"volume":1,"pitch":1,"stream":false}
     ]
   },
-  "item.elm.imoutoitem.meet":{
-    "category":"player",
-    "sounds":[
-      {
-        "name": "elm:item/itemimoutomeet01",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/itemimoutomeet02",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/itemimoutomeet03",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/itemimoutomeet04",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/itemimoutomeet05",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/itemimoutomeet06",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/itemimoutomeet07",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/itemimoutomeet08",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/itemimoutomeet09",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/itemimoutomeet10",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/itemimoutomeet11",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/itemimoutomeet12",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/itemimoutomeet13",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/itemimoutomeet14",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/itemimoutomeet15",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/itemimoutomeet16",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      }
+  "voice_wanderingpeople_ambient_hunger":{
+  "category":"voice",
+  "sounds":[
+    {"name":"elm:entity/wanderingpeople/ambient_hunger01","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/ambient_hunger02","weight":1,"volume":1,"pitch":1,"stream":false}
     ]
   },
-  "item.elm.imoutoitem.cookedmeet":{
-    "category":"player",
-    "sounds":[
-      {
-        "name": "elm:item/cooked_itemimoutomeet01",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/cooked_itemimoutomeet02",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/cooked_itemimoutomeet03",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/cooked_itemimoutomeet04",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/cooked_itemimoutomeet05",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/cooked_itemimoutomeet06",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/cooked_itemimoutomeet07",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/cooked_itemimoutomeet08",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/cooked_itemimoutomeet09",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/cooked_itemimoutomeet10",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/cooked_itemimoutomeet11",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/cooked_itemimoutomeet12",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/cooked_itemimoutomeet13",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/cooked_itemimoutomeet14",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/cooked_itemimoutomeet15",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/cooked_itemimoutomeet16",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/cooked_itemimoutomeet17",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/cooked_itemimoutomeet18",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/cooked_itemimoutomeet19",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/cooked_itemimoutomeet20",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/cooked_itemimoutomeet21",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/cooked_itemimoutomeet22",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      },
-      {
-        "name": "elm:item/cooked_itemimoutomeet23",
-        "weight": 1,
-        "volume": 1,
-        "pitch":1,
-        "stream":false
-      }
+  "voice_wanderingpeople_canthave":{
+  "category":"voice",
+  "sounds":[
+    {"name":"elm:entity/wanderingpeople/canthave01","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/canthave02","weight":1,"volume":1,"pitch":1,"stream":false}
+    ]
+  },
+  "voice_wanderingpeople_damage_norm":{
+  "category":"voice",
+  "sounds":[
+    {"name":"elm:entity/wanderingpeople/damage01","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage02","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage03","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage04","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage05","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage06","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage07","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage08","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage09","weight":1,"volume":1,"pitch":1,"stream":false}
+    ]
+  },
+  "voice_wanderingpeople_damage_cacutas":{
+  "category":"voice",
+  "sounds":[
+    {"name":"elm:entity/wanderingpeople/damage_cactas01","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage_cactas02","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage01","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage02","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage03","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage04","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage07","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage08","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage09","weight":1,"volume":1,"pitch":1,"stream":false}
+    ]
+  },
+  "voice_wanderingpeople_fall":{
+  "category":"voice",
+  "sounds":[
+    {"name":"elm:entity/wanderingpeople/damage_fall01","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage_fall02","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage_fall03","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage01","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage02","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage03","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage04","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage07","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage08","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage09","weight":1,"volume":1,"pitch":1,"stream":false}
+    ]
+  },
+  "voice_wanderingpeople__fallblock":{
+  "category":"voice",
+  "sounds":[
+    {"name":"elm:entity/wanderingpeople/damage_fallblock01","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage_fallblock02","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage01","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage02","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage03","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage04","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage07","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage08","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage09","weight":1,"volume":1,"pitch":1,"stream":false}
+    ]
+  },
+  "voice_wanderingpeople_flame":{
+  "category":"voice",
+  "sounds":[
+    {"name":"elm:entity/wanderingpeople/damage_flame01","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage_flame02","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage_flame03","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage04","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage09","weight":1,"volume":1,"pitch":1,"stream":false}
+    ]
+  },
+  "voice_wanderingpeople_press":{
+  "category":"voice",
+  "sounds":[
+    {"name":"elm:entity/wanderingpeople/damage_press01","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage_press02","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage_press03","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage01","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage02","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage03","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage04","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage07","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage08","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/damage09","weight":1,"volume":1,"pitch":1,"stream":false}
+    ]
+  },
+  "voice_wanderingpeople_dead":{
+  "category":"voice",
+  "sounds":[
+    {"name":"elm:entity/wanderingpeople/dead01","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/dead02","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/dead03","weight":1,"volume":1,"pitch":1,"stream":false}
+    ]
+  },
+  "voice_wanderingpeople_eatfood":{
+  "category":"voice",
+  "sounds":[
+    {"name":"elm:entity/wanderingpeople/eatfood01","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/eatfood02","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/eatfood03","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/eatfood04","weight":1,"volume":1,"pitch":1,"stream":false}
+    ]
+  },
+  "voice_wanderingpeople_hurt":{
+  "category":"voice",
+  "sounds":[
+    {"name":"elm:entity/wanderingpeople/hurt01","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/hurt02","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/hurt03","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/hurt04","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/hurt05","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/hurt06","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/hurt07","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/hurt08","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/hurt09","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/hurt10","weight":1,"volume":1,"pitch":1,"stream":false}
+    ]
+  },
+  "voice_wanderingpeople_seedia":{
+  "category":"voice",
+  "sounds":[
+    {"name":"elm:entity/wanderingpeople/seedia01","weight":1,"volume":1,"pitch":1,"stream":false}
+    ]
+  },
+  "voice_wanderingpeople_seeemelard":{
+  "category":"voice",
+  "sounds":[
+    {"name":"elm:entity/wanderingpeople/seeemerald01","weight":1,"volume":1,"pitch":1,"stream":false}
+    ]
+  },
+  "voice_wanderingpeople_seegold":{
+  "category":"voice",
+  "sounds":[
+    {"name":"elm:entity/wanderingpeople/seegold01","weight":1,"volume":1,"pitch":1,"stream":false}
+    ]
+  },
+  "voice_wanderingpeople_jewel":{
+  "category":"voice",
+  "sounds":[
+    {"name":"elm:entity/wanderingpeople/seeitem01","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/seejewel01","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/seejewel02","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/seejewel03","weight":1,"volume":1,"pitch":1,"stream":false}
+    ]
+  },
+  "voice_wanderingpeople_seefood":{
+  "category":"voice",
+  "sounds":[
+    {"name":"elm:entity/wanderingpeople/seefood01","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/ambient_hunger01","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/ambient_hunger02","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/seeitem01","weight":1,"volume":1,"pitch":1,"stream":false}
+    ]
+  },
+  "voice_wanderingpeople_seecake":{
+  "category":"voice",
+  "sounds":[
+    {"name":"elm:entity/wanderingpeople/cake01","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/cake02","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/cake03","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/cake04","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/cake05","weight":1,"volume":1,"pitch":1,"stream":false}
+    ]
+  },
+  "voice_wanderingpeople_trash":{
+  "category":"voice",
+  "sounds":[
+    {"name":"elm:entity/wanderingpeople/trash01","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/trash02","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/trash03","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/trash04","weight":1,"volume":1,"pitch":1,"stream":false}
+    ]
+  },
+  "voice_wanderingpeople_weather_rain":{
+  "category":"voice",
+  "sounds":[
+    {"name":"elm:entity/wanderingpeople/weather_rain01","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/weather_rain02","weight":1,"volume":1,"pitch":1,"stream":false}
+    ]
+  },
+  "voice_wanderingpeople_weather_snow":{
+  "category":"voice",
+  "sounds":[
+    {"name":"elm:entity/wanderingpeople/weather_snow01","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/weather_snow02","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/weather_snow03","weight":1,"volume":1,"pitch":1,"stream":false}
+    ]
+  },
+  "voice_wanderingpeople_weather_thunder":{
+  "category":"voice",
+  "sounds":[
+    {"name":"elm:entity/wanderingpeople/weather_thunder01","weight":1,"volume":1,"pitch":1,"stream":false},
+    {"name":"elm:entity/wanderingpeople/weather_thunder02","weight":1,"volume":1,"pitch":1,"stream":false}
+    ]
+  },
+  "voice_wanderingpeople_step":{
+  "category":"voice",
+  "sounds":[
+    {"name":"elm:entity/wanderingpeople/step","weight":1,"volume":1,"pitch":1,"stream":false}
+    ]
+  },
+  "entity_ambient_eatcake":{
+  "category":"voice",
+  "sounds":[
+    {"name":"elm:entity/ambient/eatcake","weight":1,"volume":1,"pitch":1,"stream":false}
+    ]
+  },
+  "item_handpress":{
+  "category":"player",
+  "sounds":[
+    {"name":"elm:items/handpress","weight":1,"volume":1,"pitch":1,"stream":false}
+    ]
+  },
+  "item_footpress":{
+  "category":"player",
+  "sounds":[
+    {"name":"elm:items/footpress","weight":1,"volume":1,"pitch":1,"stream":false}
+    ]
+  },
+  "item_hartpress":{
+  "category":"player",
+  "sounds":[
+    {"name":"elm:items/hartpress","weight":1,"volume":1,"pitch":1,"stream":false}
+    ]
+  },
+  "item_hartbreak":{
+  "category":"player",
+  "sounds":[
+    {"name":"elm:items/hartbreak","weight":1,"volume":1,"pitch":1,"stream":false}
+    ]
+  },
+  "item_braindamage":{
+  "category":"player",
+  "sounds":[
+    {"name":"elm:items/braindamage","weight":1,"volume":1,"pitch":1,"stream":false}
+    ]
+  },
+  "item_brainsearch":{
+  "category":"player",
+  "sounds":[
+    {"name":"elm:items/brainsearch","weight":1,"volume":1,"pitch":1,"stream":false}
+    ]
+  },
+  "item_brainhurt":{
+  "category":"player",
+  "sounds":[
+    {"name":"elm:items/brainhurt","weight":1,"volume":1,"pitch":1,"stream":false}
+    ]
+  },
+  "item_uterusvacume":{
+  "category":"player",
+  "sounds":[
+    {"name":"elm:items/uterusvacume","weight":1,"volume":1,"pitch":1,"stream":false}
+    ]
+  },
+  "item_uterusbreak":{
+  "category":"player",
+  "sounds":[
+    {"name":"elm:items/uterusbreak","weight":1,"volume":1,"pitch":1,"stream":false}
+    ]
+  },
+  "item_uterusmiss":{
+  "category":"player",
+  "sounds":[
+    {"name":"elm:items/uterusmiss","weight":1,"volume":1,"pitch":1,"stream":false}
+    ]
+  },
+  "block_missmargerpot":{
+  "category":"player",
+  "sounds":[
+    {"name":"elm:blocks/block_miss_margerpot","weight":1,"volume":1,"pitch":1,"stream":false}
+    ]
+  },
+  "block_startmargerpot":{
+  "category":"player",
+  "sounds":[
+    {"name":"elm:blocks/block_startmargerpot","weight":1,"volume":1,"pitch":1,"stream":false}
+    ]
+  },
+  "block_maergedmaergerpot":{
+  "category":"player",
+  "sounds":[
+    {"name":"elm:blocks/block_maergedmaergerpot","weight":1,"volume":1,"pitch":1,"stream":false}
+    ]
+  },
+  "block_finishmaergerpot":{
+  "category":"player",
+  "sounds":[
+    {"name":"elm:blocks/block_finishmaergerpot","weight":1,"volume":1,"pitch":1,"stream":false}
+    ]
+  },
+  "block_bloodinmaergerpot":{
+  "category":"player",
+  "sounds":[
+    {"name":"elm:blocks/block_bloodinmaergerpot","weight":1,"volume":1,"pitch":1,"stream":false}
+    ]
+  },
+  "block_bloodovermaergerpot":{
+  "category":"player",
+  "sounds":[
+    {"name":"elm:blocks/block_bloodovermaergerpot","weight":1,"volume":1,"pitch":1,"stream":false}
     ]
   }
 }

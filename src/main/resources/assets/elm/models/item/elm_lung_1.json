@@ -1,0 +1,15 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "elm:items/elm_lung_1"
+    },
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 0, 60, 0 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 0, 60, 0 ],
+			"scale":  [ 0.8, 0.8, 0.8 ]
+		}
+	}
+}

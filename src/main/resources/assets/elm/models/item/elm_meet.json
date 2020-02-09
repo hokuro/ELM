@@ -1,0 +1,34 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "elm:items/elm_meet"
+    },
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 78, -94, 80 ],
+			"translation":  [ 0, 2.7826, 1.3913 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ 78, -94, 80 ],
+			"translation":  [ 0, 2.7826, 1.3913 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ 38, -81, 0 ],
+			"translation":  [ 2.7826, 0.6956, 1.3922 ],
+			"scale":  [ 0.8, 0.8, 0.8 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 38, -81, 0 ],
+			"translation":  [ 2.7826, 0.6956, 1.3922 ],
+			"scale":  [ 0.8, 0.8, 0.8 ]
+		},
+		"gui": {
+			"scale":  [ 0.9, 0.9, 0.9 ]
+		},
+		"ground": {
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		}
+	}
+}

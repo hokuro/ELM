@@ -1,0 +1,29 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "elm:items/dried_braincell"
+    },
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ -67, 88, 75 ],
+			"translation":  [ 0, 0.1015, 1.3913 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ -67, 88, 75 ],
+			"translation":  [ 0, 0.1015, 1.3913 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ 38, -81, 0 ],
+			"translation":  [ 2.7826, 0.6956, 1.3922 ],
+			"scale":  [ 0.8, 0.8, 0.8 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 0, -102, 0 ]
+		},
+		"ground": {
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		}
+	}
+}

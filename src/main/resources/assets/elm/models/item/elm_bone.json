@@ -1,0 +1,29 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "elm:items/elm_bone"
+    },
+	"display": {
+		"thirdperson_righthand": {
+			"rotation":  [ 63, -83, 0 ],
+			"translation":  [ -0.5, 0, 2.0869 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ -22, -83, 0 ],
+			"translation":  [ -0.5, 0, 2.0869 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ 83, 72, 0 ],
+			"translation":  [ 4.1739, 0, 0 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 5, 72, 0 ],
+			"translation":  [ 4.1739, 0, 0 ]
+		},
+		"ground": {
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		}
+	}
+}

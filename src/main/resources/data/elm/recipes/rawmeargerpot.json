@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C C",
+    "MBM",
+    "CMC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:clay_ball"
+    },
+    "M": {
+      "item": "elm:elm_meet"
+    },
+    "B": {
+      "item": "elm:elm_blood"
+    }
+  },
+  "result": {
+    "item": "elm:rawmeargerpot"
+  }
+}
